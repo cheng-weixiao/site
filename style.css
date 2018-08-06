@@ -1,0 +1,283 @@
+* {
+	max-width: 865px;
+	width: 100%;
+	margin: auto;
+
+}
+
+
+article {
+	display: flex;
+	flex-direction: column;
+
+}
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	height: 120px;
+	overflow: hidden;
+	background: #ededed;
+	
+}
+
+header img {
+	width: 110px;
+	border-radius: 50px;
+	text-align: right;
+	
+}
+
+#name {
+	flex-grow: 1;
+	text-align: center;
+}
+
+#name h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#name h2 {
+	font-size: 28px;
+	font-weight: 200;
+}
+
+#contact {
+	width: 100px;
+
+	text-align: left;
+}
+
+#contact li {
+	list-style: none;
+
+}
+
+
+
+#contact a:link, #contact a:visited {
+	text-decoration: none;
+	color: #000000;
+	background-color: #E3EDD8;
+	border: 1.5px solid #4286f4;
+	display: block;
+	text-align: center;
+	margin-bottom: 7px;
+	margin-top: 7px;
+	border-radius: 10px;
+	
+}
+
+#contact a:hover, #contact a:active {
+	background-color: green;
+}
+
+header .side {
+	width: 10px;
+}
+
+
+.title {
+	margin-left: 0px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: 700;
+	border-bottom: 2px solid #cf8a05;
+}
+
+section {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.spread {
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.spread-bottom {
+	display: flex;
+	flex-direction: row;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+	width: 100%;
+	
+}
+
+.spread-bottom .left, .spread .left {
+	width: 82%;
+	text-align: left;
+	margin-bottom: 5px;
+	padding: 0px;
+
+	} 
+
+
+.spread-bottom .right, .spread .right {
+	width: 18%;
+	text-align: right;
+	margin-bottom: 5px;
+	padding: 0px;
+}
+
+
+.subsection {
+	margin-left: 0px;
+	padding: 0px;
+	margin-bottom: 20px;
+}
+
+.subsection li {
+	margin-left: 18px;
+	margin-bottom: 5px;
+	padding: 0px;
+	
+}
+
+.subsection-not-bottom {
+	margin-left: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+.subsection-not-bottom li {
+	margin-left: 18px;
+	margin-bottom: 5px;
+	padding: 0px;
+	line-height: 20px;
+}
+
+.subsection-not-bottom a {
+	text-decoration: none;
+}
+
+#award {
+	
+    margin-left: 0px;
+	margin-bottom: 20px;
+	margin-right: 0px;
+	padding: 0px;
+	list-style: none;
+	
+
+
+}
+
+#award li {
+	margin-left: 18px;
+	margin-bottom: 5px;
+	margin-right: 0px;
+	padding: 0px;
+	width: 849px;
+	display: flex;
+
+}
+
+.publication {
+	margin-left: 0px;
+	padding: 0px;
+	margin-bottom: 20px;
+
+}
+
+.publication li {
+	margin-left: 18px;
+	margin-bottom: 5px;
+	padding: 0px;
+	width: 849px;
+	line-height: 22px;
+	
+}
+
+#award li:before {
+	content: "\2022";
+	color: #000000;
+	font-size: 16.5px;
+	position: absolute;
+	margin-left: -16px;
+
+}
+
+#award .right {
+	
+	width: 15%;
+	text-align: right;
+}
+
+#award .left {
+	width: 85%;
+}
+
+
+.note {
+	margin-bottom: 8px;
+}
+
+.course {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.course .math {
+	width: 34%;
+	height: 250px;
+	text-align: left;
+	
+	
+}
+
+.course .computer {
+	width: 38%;
+	height: 250px;
+	text-align: left;
+	
+}
+
+.course .biochem {
+	width: 28%;
+	height: 250px;
+	text-align: left;
+	
+	
+}
+
+.course ul {
+	margin: 0px;
+	padding: 0;
+}
+
+.course li {
+	margin-left: 20px;
+	
+	padding: 0px;
+	height: 22px;
+}
+
+.course h2 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.course .online {
+	text-decoration: underline;
+}
+
+footer {
+	margin:30px;
+	text-align: center;
+}
